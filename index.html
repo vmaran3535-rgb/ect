@@ -532,7 +532,7 @@ V.home=()=>{
   const real=S.actions.length>0,A=real?S.actions:sampleActions(),st=stats(A),lv=level(st.pts),ser=series(A,7);
   const feats=[['scanner','Scan your waste','Add a photo, confirm what it is and get exact disposal steps.','scan'],['guide','Disposal guide','Search 14 common items with prep steps, safety notes and local advice.','book'],['dashboard','Eco Score','Track points, streaks, badges and estimated waste diverted.','chart'],['studio','Waste-to-Value','Turn bottles, jars and old clothes into useful things.','bulb'],['school','School challenge','Weekly missions and class leaderboards built for young eco teams.','school'],['reporter','Pollution reporter','Record a problem with photo and place and keep a report log.','pin'],['community','Community','See impact and rankings calculated from real logged activity.','users'],['profile','Profile','Guest mode, local demo accounts and privacy controls.','user']];
   return `<section class="hero band"><div class="wrap">
-  <div><div class="tag-demo">${icon('info',14)} Demo build. Figures below are illustrative</div>
+  
   <h1 style="margin-top:18px">A Smarter Planet <em>Starts With You.</em></h1>
   <p class="lead">Discover smarter ways to sort waste, reuse everyday materials, and make every action count towards a cleaner planet.</p>
   <div class="row"><a class="btn btn-lime" href="#scanner">${icon('scan')} Scan Your Waste</a><button class="btn btn-light" data-act="scrollTo" data-target="features">Explore EcoTrack ${icon('arrow')}</button></div>
